@@ -1,3 +1,98 @@
 body {
     background-color: white;
 }
+.history-container {
+    display: flex;
+    width: 100%;
+    margin: 1em;
+    margin-left: 4em;
+    background-color: #ffffffff;
+}
+.history {
+    width: 60%;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    border-color: rgba(151, 151, 151, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin: 1em;
+}
+.purchase-item {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(193, 193, 193);
+    margin: 1em;
+}
+.item-info {
+    display: flex;
+    margin: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.date-of-purchase {
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+    font-weight: 600;
+}
+.store-name {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    font-weight: 600;
+}
+.item-cost {
+    display: inline-block;
+    text-align: right;
+    width: 60%;
+    font-weight: bold;
+    font-size: large;
+}
+.item-details {
+    display: flex;
+    margin: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.item-view-details {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    text-decoration: none !important;
+}
+.item-view-details a {
+    text-decoration: none !important;
+    color: rgb(95, 197, 209);
+    font-weight: 800;
+    font-size: large;
+}
+.item-ct-money {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+    color: rgb(131, 150, 73);
+    font-weight: 600;
+    margin-right: 0px;
+}
+.history-button {
+    width: 20em;
+    height: 4em;
+    text-align: center;
+    border-radius: 5px;
+    display:  block;
+    margin-left: auto;
+    margin-right:  auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color:  white;
+    color: grey;
+    /* font-weight: 600; */
+    font-size: medium;
+}
+.history-title {
+    text-align: left;
+    font-size: x-large;
+    margin: 1em;
+    font-weight:  bold;
+    color: rgb(73,73,73);
+}
