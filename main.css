@@ -33,31 +33,37 @@ body {
     display: inline-block;
     text-align: left;
     width: 20%;
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-size: large;
 }
 .store-name {
     display: inline-block;
     text-align: left;
-    width: 60%;
-    font-weight: 600;
+    width: 100px;
+    /* font-weight: 600; */
+    font-size: large;
+    min-width: 100px;
 }
 .item-cost {
     display: inline-block;
     text-align: right;
-    width: 20%;
-    font-weight: bold;
+    width: 50%;
+    /* font-weight: bold; */
     font-size: large;
+    min-width: 100px;
 }
 .item-details {
     display: flex;
     margin: 1em;
     margin-left: 0;
     margin-right: 0;
+    padding: 1px;
+    vertical-align:  middle;
 }
 .item-view-details {
     display: inline-block;
-    text-align: left;
-    width: 50%;
+    text-align: right;
+    width: 100%;
     text-decoration: none !important;
 }
 .item-view-details a {
@@ -69,10 +75,12 @@ body {
 .item-ct-money {
     display: inline-block;
     text-align: right;
-    width: 50%;
+    width: 30%;
     color: rgb(131, 150, 73);
     font-weight: 600;
     margin-right: 0px;
+    font-size: large;
+    min-width: 100px;
 }
 .history-button {
     width: 18em;
@@ -97,4 +105,14 @@ body {
     margin: 1em;
     font-weight:  bold;
     color: rgb(73,73,73);
+}
+.history-image-logo {
+    /* height: 30px; */
+    width: 40px;
+    min-width:  40px;
+    position:  relative;
+    top: -5px;
+    /* margin: 5px; */
+    /* text-align: center; */
+    /* vertical-align: bottom; */
 }
