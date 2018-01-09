@@ -17,6 +17,7 @@ body {
     border-style: solid;
     border-width: 1px;
     margin: 1em;
+    /* min-width: 480px; */
 }
 .purchase-item {
     display:  flex;
@@ -50,18 +51,24 @@ body {
     padding-right: 10px;
 }
 .total-title {
-    display: inline-block;
+    /* display: inline-block; */
     font-size: large;
+    width: 50%;
+    text-align: left;
 }
 .total-amount {
-    display: inline-block;
-    margin-left: 4px;
+    /* display: inline-block; */
+    /* margin-left: 0px; */
     font-weight:  800;
+    width: 50%;
+    /* text-align:  right; */
+    /* margin-right:  0px; */
 }
 .item-details {
-    flex: 1;
-    text-align: right;
+    /* flex: 1; */
+    text-align: unset;
     margin-right: 0;
+    /* display: flex; */
 }
 .item-view-details {
     margin-top: 20px;
@@ -84,7 +91,7 @@ body {
     text-align: right;
     color: rgb(131, 150, 73);
     font-weight: 600;
-    margin-left: 4px;
+    /* margin-left: 4px; */
     font-size: large;
 }
 .history-button {
@@ -160,25 +167,13 @@ body {
         /* margin-left: 0px; */
         min-width: 128px;
         text-align: left;
-        float: left;
     }
     .item-ct-money {
         width: 47%;
         text-align: right;
         margin-right: 0px;
     }
-    .total-title {
-        flex: 1;
-        text-align:  left;
-    }
-    .total-amount {
-        flex: 1;
-    }
-    .item-details {
 
-        margin: 0px;
-
-    }
 
 
 
@@ -199,5 +194,4 @@ body {
     body {
 
     }
-}
 }*/
