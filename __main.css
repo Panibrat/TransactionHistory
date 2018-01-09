@@ -6,7 +6,7 @@ body {
     width: 100%;
     margin: 1em;
     margin-left: 4em;
-    background-color: #ffffff;
+    background-color: #ffffffff;
 }
 .history {
     width: 64%;
@@ -18,53 +18,53 @@ body {
     margin: 1em;
 }
 .purchase-item {
-    display:  flex;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: rgb(193, 193, 193);
     margin: 1em;
-    padding-bottom: 1em;
 }
 .item-info {
-    flex: 1;
-    display: inline-block;
-    width: 33%;
+    display: flex;
+    margin: 1em;
+    margin-left: 0;
+    margin-right: 0;
 }
 .date-of-purchase {
-    display: block;
+    display: inline-block;
     text-align: left;
+    width: 20%;
+    /* font-weight: 600; */
     font-size: large;
 }
 .store-name {
     display: inline-block;
     text-align: left;
     width: 100px;
+    /* font-weight: 600; */
     font-size: large;
     min-width: 100px;
 }
-.item-total {
-    flex: 1;
+.item-cost {
     display: inline-block;
     text-align: right;
-    padding-right: 10px;
-}
-.total-title {
-    display: inline-block;
+    width: 50%;
+    /* font-weight: bold; */
     font-size: large;
-}
-.total-amount {
-    display: inline-block;
-    margin-left: 4px;
-    font-weight:  800;
+    min-width: 100px;
 }
 .item-details {
-    flex: 1;
-    text-align: right;
+    display: flex;
+    margin: 1em;
+    margin-left: 0;
     margin-right: 0;
+    padding: 1px;
+    vertical-align:  middle;
 }
 .item-view-details {
-    margin-top: 20px;
-    display: block;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    text-decoration: none !important;
 }
 .item-view-details a {
     text-decoration: none !important;
@@ -72,19 +72,15 @@ body {
     font-weight: 800;
     font-size: large;
 }
-.item-ct-title {
-    display: inline-block;
-    color: rgb(131, 150, 73);
-    font-weight: 600;
-    text-align: right;
-}
 .item-ct-money {
     display: inline-block;
     text-align: right;
+    width: 30%;
     color: rgb(131, 150, 73);
     font-weight: 600;
-    margin-left: 4px;
+    margin-right: 0px;
     font-size: large;
+    min-width: 100px;
 }
 .history-button {
     width: 18em;
@@ -98,6 +94,7 @@ body {
     margin-bottom: 1em;
     background-color:  white;
     color: #565454;
+    /* font-weight: 600; */
     font-size: medium;
     border-color: rgba(151, 151, 151, 1);
     border-width: 1px;
@@ -110,64 +107,35 @@ body {
     color: rgb(73,73,73);
 }
 .history-image-logo {
-    display: inline-block;
+    /* height: 30px; */
     width: 40px;
     min-width:  40px;
     position:  relative;
-    top: 15px;
+    top: -5px;
+    /* margin: 5px; */
+    /* text-align: center; */
+    /* vertical-align: bottom; */
 }
 
 
 
 @media screen and (max-width: 480px) {
-    .purchase-item {
-        flex-direction: column;
+    body {
+        background-color: yellow;
     }
-    .history-image-logo {
-        display: block;
-        width: 40px;
-        min-width: 40px;
-        position: relative;
-        top: -50px;
-        left: 100px;
-    }
-    .item-info {
-        flex: 1;
-        display: inline-block;
-        width: 100%;
-    }
-    .date-of-purchase {
-        display: block;
-        text-align: left;
-        font-size: large;
-    }
-    .item-total {
-        display: block;
-        text-align: left;
-    }
-    .item-view-details {
-        text-align: right;
-
-    }
-
-
-
-
-
-
 }
 @media screen and (max-width: 767px) and (min-width: 481px) {
     body {
-
+        background-color: green;
     }
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     body {
-
+        background-color: blue;
     }
 }
 @media screen and (min-width: 1024px) {
     body {
-
+        background-color: red;
     }
 }
